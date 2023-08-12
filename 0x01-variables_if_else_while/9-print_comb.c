@@ -10,11 +10,17 @@ int main(void)
 int num = 48;
 while (num < 58)
 {
+if (num == 57)
+{
+putchar(num);
+}
+else
+{
 putchar(num);
 putchar(',');
 putchar(' ');
+}
 num++;
 }
-putchar('\n');
 return (0);
 }
