@@ -13,5 +13,6 @@ while (letter <= 122)
 putchar(letter);
 letter += 1;
 }
+putchar("\n");
 return (0);
 }
