@@ -13,6 +13,6 @@ while (num < 58)
 putchar(num);
 num += 1;
 }
-printf("\n");
+putchar('\n');
 return (0);
 }
