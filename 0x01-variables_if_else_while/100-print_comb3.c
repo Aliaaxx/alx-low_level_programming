@@ -7,16 +7,24 @@
  */
 int main(void)
 {
-  int num1 = 0, num2 = 0;
-  for (int i = 48; i < 58; i++)
-    {
-      for (int j = i + 1; j < 58; j++)
-	{
-	  putchar(i);
-	  putchar(j);
-          putchar(',');
-	  putchar(' ');
-	}
-    }
-  return (0);
+int i, j;
+for (i = 48; i < 58; i++)
+{
+for (j = i + 1; j < 58; j++)
+{
+putchar(i);
+putchar(j);
+if (i == 8 && j == 9)
+{
+break;
+}
+else
+{
+putchar(',');
+putchar(' ');
+}
+}
+}
+putchar('\n');
+return (0);
 }
