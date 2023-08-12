@@ -16,6 +16,10 @@ for (k = 48; k < 58; k++)
 {
 for (r = 48; r < 58; r++)
 {
+if (i == 48 && j == 48 && k == 48)
+{
+r++;
+}
 putchar(i);
 putchar(j);
 putchar(' ');
