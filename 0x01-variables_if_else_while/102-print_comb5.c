@@ -25,7 +25,7 @@ putchar(j);
 putchar(' ');
 putchar(k);
 putchar(r);
-if (i == 57 && j == 56 && k == 57 && r == 57 )
+if (i == 57 && j == 56 && k == 57 && r == 57)
 {
 break;
 }
