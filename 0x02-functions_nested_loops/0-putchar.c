@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * main - Entry point
  *
@@ -5,13 +7,12 @@
  */
 int main(void)
 {
-putchar(95);
-putchar(112);
-putchar(117);
-putchar(116);
-putchar(99);
-putchar(104);
-putchar(97);
-putchar(114);
+char c[] = "_putchar"
+int i;
+for(i=0;i<8;i++)
+{
+putchar(c[i]);
+}
 putchar('\n');
+return (0);
 }
