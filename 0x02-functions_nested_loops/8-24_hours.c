@@ -17,12 +17,12 @@ for (k = 48; k < 54; k++)
 {
 for (r = 48; r < 58; r++)
 {
-putchar(i);
-putchar(j);
-putchar(':');
-putchar(k);
-putchar(r);
-putchar('\n');
+_putchar(i);
+_putchar(j);
+_putchar(':');
+_putchar(k);
+_putchar(r);
+_putchar('\n');
 }
 }
 }
