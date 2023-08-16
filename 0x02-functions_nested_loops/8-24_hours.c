@@ -17,11 +17,11 @@ for (k = 48; k < 54; k++)
 {
 for (r = 48; r < 58; r++)
 {
-_putchar(i);
-_putchar(j);
+_putchar('0' + i);
+_putchar('0' + j);
 _putchar(':');
-_putchar(k);
-_putchar(r);
+_putchar('0' + k);
+_putchar('0' + r);
 _putchar('\n');
 }
 }
