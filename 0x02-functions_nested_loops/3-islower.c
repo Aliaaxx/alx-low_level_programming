@@ -11,7 +11,7 @@
 
 int _islower(int c)
 {
-if (c > 96 && c < 123)
+if (islower(c) != 0)
 {
 return (1);
 }
