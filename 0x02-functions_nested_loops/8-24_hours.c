@@ -11,11 +11,11 @@ void jack_bauer(void)
 int i, j, k, r;
 for (i = 48; i < 51; i++)
 {
-for (j = 48; j < 52; j++)
+for (j = 48; j < 58; j++)
 {
 for (k = 48; k < 54; k++)
 {
-for (r = 48; r < 58; r++)
+for (r = 48; r < 54; r++)
 {
 _putchar('0' + i);
 _putchar('0' + j);
