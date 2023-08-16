@@ -2,8 +2,11 @@
 #include "main.h"
 
 /**
- * print_alphabet - is a function thats prints the alphabet,
- * in lowercase, followed by a new line
+ * _islower - is a function thats checks if the charcter is 
+ * in lowercase.
+ *
+ * Return: return 1 if 'c' is lowercase
+ * other return 0 (Success)
 */
 int _islower(int c)
 {
