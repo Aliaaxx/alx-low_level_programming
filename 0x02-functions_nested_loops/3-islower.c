@@ -5,7 +5,7 @@
  * print_alphabet - is a function thats prints the alphabet,
  * in lowercase, followed by a new line
 */
-int _islower(int c);
+int _islower(int c)
 {
 if (c > 96 && c < 123)
 {
