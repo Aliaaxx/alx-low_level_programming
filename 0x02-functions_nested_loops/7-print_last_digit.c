@@ -13,8 +13,12 @@
 int print_last_digit(int n)
 {
 int digit1, digit2;
+if (n < 0)
+{
+n = n * -1;
+}
 digit1 = n % 10;
-digit2=digit1 + 48; 
+digit2 = digit1 + 48;
 _putchar(digit2);
 return (digit1);
 }
