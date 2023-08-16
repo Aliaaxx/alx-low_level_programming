@@ -5,7 +5,7 @@
  * _islower - is a function thats checks if the charcter is
  * in lowercase.
  *
- * c: the Argument of the function
+ *@c: the Argument of the function
  *
  * Return: return 1 if 'c' is lowercase
  * other return 0 (Success)
