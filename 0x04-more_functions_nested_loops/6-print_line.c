@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * print_line - is a function that prints a square.
- * @n: the Argument of the function
- * Return: nothing
+ *print_line - is a function that prints a square.
+ *@n: the Argument of the function
+ *Return: nothing
  */
 void print_line(int n)
 {
