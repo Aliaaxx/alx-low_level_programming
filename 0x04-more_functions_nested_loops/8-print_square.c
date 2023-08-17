@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_numbers - is a function that prints the numbers,
+ * print_square - is a function that prints the numbers,
  * from 0 to 9, followed by a new line.
  * 
  * @size: the Argument of the function
