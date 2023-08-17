@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _islower - is a function thats checks for uppercase character.
+ * _isupper - is a function thats checks for uppercase character.
  *
  *@c: the Argument of the function
  *
