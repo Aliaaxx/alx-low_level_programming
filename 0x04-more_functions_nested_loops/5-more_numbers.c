@@ -7,8 +7,10 @@
 */
 void more_numbers(void)
 {
-int i, j;
+int k, i, j;
 char arr[] = {"1011121314"}; 
+for(k = 0; k < 10; k++)
+{
 for (i = 48; i < 58; i++)
 {
 putchar(i);
@@ -19,4 +21,5 @@ putchar(arr[j]);
 }
 } 
 putchar('\n');
+}
 }
