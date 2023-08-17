@@ -4,7 +4,7 @@
 /**
  * print_line - is a function that prints a square.
  *
- *@n: the Argument of the function
+ * @n: the Argument of the function
  */
 void print_line(int n)
 {
