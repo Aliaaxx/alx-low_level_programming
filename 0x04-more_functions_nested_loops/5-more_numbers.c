@@ -13,13 +13,13 @@ for(k = 0; k < 10; k++)
 {
 for (i = 48; i < 58; i++)
 {
-putchar(i);
+_putchar(i);
 if (i == 57)
 {
 for (j = 0; j < 10; j++)
-putchar(arr[j]);
+_putchar(arr[j]);
 }
 }
-putchar('\n');
+_putchar('\n');
 }
 }
