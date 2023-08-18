@@ -22,8 +22,8 @@ for (j = 0; j < i; j++)
 {
 if (j == (i - 1))
 {
-putchar(92);  
-}    
+  putchar(92);
+}
 else
 {
 putchar(' ');
