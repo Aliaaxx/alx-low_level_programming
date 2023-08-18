@@ -10,7 +10,11 @@ else if (i % 5 == 0)
 printf("FizzBuzz");
 else
 printf("%d", i);
+if (i == 100)
+break;
+else
 printf(" ");
 }
+printf("\n");
 return 0;
 }
