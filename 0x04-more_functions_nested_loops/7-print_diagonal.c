@@ -6,7 +6,6 @@
  *
  * @n: the Argument of the function
  */
-
 void print_diagonal(int n)
 {
 int i, j;
@@ -22,7 +21,7 @@ for (j = 0; j < i; j++)
 {
 if (j == (i - 1))
 {
-  putchar(92);
+putchar('\\');
 }
 else
 {
