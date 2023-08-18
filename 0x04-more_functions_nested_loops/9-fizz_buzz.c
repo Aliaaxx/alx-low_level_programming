@@ -12,7 +12,6 @@ else
 printf("%d", i);
 if (i == 100)
 break;
-else
 printf(" ");
 }
 printf("\n");
