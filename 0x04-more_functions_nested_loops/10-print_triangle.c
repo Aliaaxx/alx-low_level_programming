@@ -21,7 +21,7 @@ for (j = 1; j <= size; j++)
 {
 if (j == count)
 {
-for(k = count; k <= size; k++)
+for (k = count; k <= size; k++)
 {
 putchar('#');
 }
