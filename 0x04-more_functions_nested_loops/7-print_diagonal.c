@@ -7,16 +7,16 @@
  * @n: the Argument of the function
  */
 
-void print_triangle(int size)
+void print_diagonal(int n)
 {
 int i, j;
-if (size <= 0)
+if (n <= 0)
 {
 putchar('\n');
 }
 else
 {
-for (i = 0; i < size; i++)
+for (i = 0; i < n; i++)
 {
 for (j = 0; j < i; j++)
 {
