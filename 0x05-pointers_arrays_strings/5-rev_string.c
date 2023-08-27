@@ -11,8 +11,8 @@
  */
 void rev_string(char *s)
 {
-puts(s);
 int i;
+puts(s);
 for (i = strlen(s) - 1; i >= 0; i--)
 {
 putchar(s[i]);
