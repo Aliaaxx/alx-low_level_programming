@@ -7,7 +7,7 @@
  * an array of integers, followed by a new line.
  *
  * @a: the first Argument of the function
- * @n: the second Argument of the function 
+ * @n: the second Argument of the function
  *
  * Return: nothing
  */
