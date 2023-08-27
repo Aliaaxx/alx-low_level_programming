@@ -12,8 +12,8 @@
  */
 void puts2(char *str)
 {
-int i;
-for (i = 0; i < strlen(str) - 1; i++)
+int i, len = strlen(str) - 1;
+for (i = 0; i < len; i++)
 {
 if (i % 2 == 0)
 putchar(str[i]);
