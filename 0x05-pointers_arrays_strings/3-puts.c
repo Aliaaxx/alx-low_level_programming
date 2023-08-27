@@ -3,7 +3,8 @@
 #include "main.h"
 
 /**
- * _puts - is a function that prints a string, followed by a new line, to stdout.
+ * _puts - is a function that prints a string,
+ * followed by a new line, to stdout.
  *
  * @str: the Argument of the function
  *
