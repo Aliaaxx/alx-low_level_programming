@@ -11,8 +11,7 @@
  */
 int main(void)
 {
-int n;
 srand(time(0));
-n = rand();
+int n = rand();
 return (0);
 }
