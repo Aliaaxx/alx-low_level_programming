@@ -11,8 +11,8 @@
  *
  * Return: Returns a pointer to the memory area s (Suceess)
  */
- char *_memset(char *s, char b, unsigned int n)
- {
- memset(s, b, n);
- return (s);
- }
+char *_memset(char *s, char b, unsigned int n)
+{
+memset(s, b, n);
+return (s);
+}
