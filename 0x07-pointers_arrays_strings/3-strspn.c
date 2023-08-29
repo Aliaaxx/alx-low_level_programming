@@ -13,7 +13,5 @@
  */
 unsigned int _strspn(char *s, char *accept);
 {
-int count;
-count = strspn(s, accept);
-return (count);
+return (strspn(s, accept));
 }
