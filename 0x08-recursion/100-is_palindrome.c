@@ -4,19 +4,19 @@
 
 /**
  * check_palindrome - is a function that returns 1 if a string
- * is a palindrome and 0 if not. 
- * 
+ * is a palindrome and 0 if not.
+ *
  * @s: the First Argument of the funcion.
- * @start: the Second Argument of the funcion. 
- * @end: the Third Argument of the funcion. 
+ * @start: the Second Argument of the funcion.
+ * @end: the Third Argument of the funcion.
  *
  * Return: returns 1 if a string is a palindrome and 0 if not.
  */
 int check_palindrome(char *s, int start, int end)
 {
-if(start == end)
+if (start >= end)
 return (1);
-if(s[start] != s[end])
+if (s[start] != s[end])
 return (0);
 return (check_palindrome(s, start + 1, end - 1));
 }
@@ -31,5 +31,5 @@ return (check_palindrome(s, start + 1, end - 1));
 int is_palindrome(char *s)
 {
 int end = strlen(s) - 1;
-return check_palindrome(s, 0, end);
+return (check_palindrome(s, 0, end));
 }
