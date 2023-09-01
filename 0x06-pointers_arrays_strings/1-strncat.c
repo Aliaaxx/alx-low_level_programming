@@ -3,9 +3,9 @@
 #include "main.h"
 
 /**
- * _strncat - is a function that The _strncat function is similar 
- * to the _strcat function, except that it will use at most n 
- * bytes from src; and src does not need to be null-terminated if 
+ * _strncat - is a function that The _strncat function is similar
+ * to the _strcat function, except that it will use at most n
+ * bytes from src; and src does not need to be null-terminated if
  * it contains n or more bytes.
  *
  * @dest: the first Argument of the function
