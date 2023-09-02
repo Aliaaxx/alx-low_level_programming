@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.c>
 #include <stdlib.h>
+#include <ctype.h>
 
 /**
  * main - Entry Point
@@ -23,56 +24,8 @@ for (i = 1; i < argc; i++)
 {
 for (j = 0; j < strlen(argv[i]); j++)
 {
-if (argv[i][j] != '0')
-{
+if (!isdigit(argv[i][j]))
 check = 1;
-break;
-}
-else if (argv[i][j] != '1')
-{
-check = 1;
-break;
-}
-else if (argv[i][j] != '2')
-{
-check = 1;
-break;
-}
-else if (argv[i][j] != '3')
-{
-check = 1;
-break;
-}
-else if (argv[i][j] != '4')
-{
-check = 1;
-break;
-}
-else if (argv[i][j] != '5')
-{
-check = 1;
-break;
-}
-else if (argv[i][j] != '6')
-{
-check = 1;
-break;
-}
-else if (argv[i][j] != '7')
-{
-check = 1;
-break;
-}
-else if (argv[i][j] != '8')
-{
-check = 1;
-break;
-}
-else if (argv[i][j] != '9')
-{
-check = 1;
-break;
-}
 }
 if (check == 1)
 {
