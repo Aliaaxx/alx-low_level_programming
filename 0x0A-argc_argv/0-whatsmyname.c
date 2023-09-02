@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main - Entry Point
- * 
+ *
  * @argc: The First Argument of the Function
  * @argv: The Second Argument of the Function
  *
