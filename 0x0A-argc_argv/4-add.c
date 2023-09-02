@@ -22,7 +22,7 @@ else
 {
 for (i = 1; i < argc; i++)
 {
-for (j = 0; j < strlen(argv[i]); j++)
+for (j = 0; argv[i][j] != '\0'; j++)
 {
 if (!isdigit(argv[i][j]))
 check = 1;
@@ -44,6 +44,7 @@ return (1);
 else
 {
 printf("%d\n", sum);
+}
 }
 return (0);
 }
