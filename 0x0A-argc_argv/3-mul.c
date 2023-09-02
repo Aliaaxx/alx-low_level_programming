@@ -17,8 +17,8 @@ if (argc != 2)
 for (i = 1; i < argc; i++)
 {
 result *= atoi(argv[i]);
-printf("%d\n", result);
 }
+printf("%d\n", result);
 }
 else
 {
