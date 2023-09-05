@@ -19,6 +19,6 @@ return (0);
 else
 {
 char *arr = (char *)malloc(size * sizeof(char));
-return (*arr);
+return (arr);
 }
 }
