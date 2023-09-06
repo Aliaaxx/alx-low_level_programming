@@ -36,11 +36,12 @@ if (s == NULL)
 {
 return (NULL);
 }
-for (i = 0; i < len1; i++) {
+for (i = 0; i < len1; i++)
+{
 s[i] = s1[i];
 }
-
-for (; i < size; i++) {
+for (; i < size; i++)
+{
 s[i] = s2[j];
 j++;
 }
