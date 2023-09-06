@@ -36,17 +36,13 @@ if (s == NULL)
 {
 return (NULL);
 }
-for (i = 0; i < size; i++)
-{
-if (i < len1)
-{
+for (i = 0; i < len1; i++) {
 s[i] = s1[i];
 }
-else
-{
+
+for (; i < size; i++) {
 s[i] = s2[j];
 j++;
-}
 }
 s[size] = '\0';
 return (s);
