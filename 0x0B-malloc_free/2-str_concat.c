@@ -47,7 +47,7 @@ else
 s[i] = s2[j];
 j++;
 }
-s[size] = "\0";
+s[size] = '\0';
 }
 return (s);
 }
