@@ -19,6 +19,6 @@ return (-1);
 }
 else
 {
-return (sqrt(n));
+return (sqrtf(n));
 }
 }
