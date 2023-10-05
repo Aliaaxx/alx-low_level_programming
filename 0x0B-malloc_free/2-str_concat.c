@@ -44,7 +44,7 @@ len2 = 0;
 }
 else if (s2 != NULL)
 {
-len2 = _strlen(s2);   
+len2 = _strlen(s2);
 }
 size = len1 + len2;
 s = (char *)malloc((size + 1) * sizeof(char));
