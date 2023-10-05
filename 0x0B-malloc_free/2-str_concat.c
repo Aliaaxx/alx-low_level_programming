@@ -40,7 +40,7 @@ len1 = _strlen(s1);
 }
 if (s2 == NULL)
 {
-len2 = 0; 
+len2 = 0;
 }
 else if (s2 != NULL)
 {
