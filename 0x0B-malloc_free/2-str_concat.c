@@ -35,6 +35,7 @@ if (s1 == NULL)
 len1 = 0;
 }
 else if (s1 != NULL)
+{
 len1 = _strlen(s1);
 }
 if (s2 == NULL)
